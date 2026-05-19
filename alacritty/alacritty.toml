@@ -1,0 +1,94 @@
+[window]
+opacity = 0.95
+padding = { x = 15, y = 15 }
+decorations = "None"
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+
+[cursor]
+style = "Beam"
+
+[terminal.shell]
+program = "pwsh.exe"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[terminal]
+
+
+# Colors (Tokyo Night Storm variant)
+
+# Source https//github.com/zatchheems/tokyo-night-alacritty-theme
+
+
+
+# Default colors
+
+[colors.primary]
+
+background = '#171d23'
+
+foreground = '#ffffff'
+
+
+
+# Cursor colors
+
+[colors.cursor]
+
+text   = '#fafafa'
+
+cursor = '#008b94'
+
+
+
+# Normal colors
+
+[colors.normal]
+
+black   = '#333f4a'
+
+red     = '#d95468'
+
+green   = '#8bd49c'
+
+blue    = '#539afc'
+
+magenta = '#b62d65'
+
+cyan    = '#70e1e8'
+
+white   = '#b7c5d3'
+
+
+
+# Bright colors
+
+[colors.bright]
+
+black   = '#41505e'
+
+red     = '#d95468'
+
+green   = '#8bd49c'
+
+yellow  = '#ebbf83'
+
+blue    = '#5ec4ff'
+
+magenta = '#e27e8d'
+
+cyan    = '#70e1e8'
+
+white   = '#ffffff'
