@@ -1,3 +1,10 @@
-Alacritty config
+# Alacritty config
+
 
 C:\Users\$Your USER$\AppData\Roaming\Alacritty\alacritty.toml
+
+
+# nvim config
+
+
+C:\Users\$Your USER$\AppData\Local\nvim
