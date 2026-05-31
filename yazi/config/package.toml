@@ -1,0 +1,7 @@
+[plugin]
+deps = []
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "8e6296f"
+hash = "49258e379077f4b0d2e62dfdb131c7d"
