@@ -82,3 +82,18 @@ Your keyboard shortcuts are stored in:
 ```
 
 Edit `whkdrc` to customize your keybindings.
+
+
+### LeopardWM 
+
+```text
+winget install jcardama.LeopardWM
+```
+
+
+Config path :
+
+
+```text
+"C:\Users\<ur-username>\AppData\Roaming\leopardwm\config\config.toml"
+```
