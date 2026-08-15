@@ -30,7 +30,10 @@ active_border_color = "#cba6f7"
 inactive_border_color = "#585b70"
 background_color = "#1e1e2e"
 
+# Transparency
 
+# Border
+border_width = 50
 
 [behavior]
 # Automatically focus new windows when they appear
@@ -113,14 +116,14 @@ focus_follows_mouse = false
 # Monitor focus
 #"Alt+Win+," = "focus_monitor_left"
 #"Alt+Win+." = "focus_monitor_right"
-"Alt+I" = "focus_monitor_left"
-"Alt+O" = "focus_monitor_right"
+"Ctrl+H" = "focus_monitor_left"
+"Ctrl+L" = "focus_monitor_right"
 "Alt+Up" = "focus_monitor_up"
 "Alt+Down" = "focus_monitor_down"
 
 # Move window to monitor
-"Alt+Shift+I" = "move_to_monitor_left"
-"Alt+Shift+O" = "move_to_monitor_right"
+"Ctrl+Shift+H" = "move_to_monitor_left"
+"Ctrl+Shift+L" = "move_to_monitor_right"
 "Alt+Shift+Up" = "move_to_monitor_up"
 "Alt+Shift+Down" = "move_to_monitor_down"
 
@@ -216,7 +219,7 @@ reduce_motion_on_battery = true
 # or remove freely — corner_style accepts "square" | "rounded" | "small_rounded".
 [[window_rules]]
 match_class = "MozillaDialogClass"
-corner_style = "rounded"
+corner_style = "square"
 
 # [[window_rules]]
 # match_class = "Chrome_WidgetWin_1"
