@@ -9,7 +9,7 @@ leopard_workspaces:
     class_name: "leopard_workspaces"
     label: "{data}"
     exec_options:
-      run_cmd: "python C:\Users\ur username\Desktop\python\windows\leopardwm\yasbpluginlol\widget.py"
+      run_cmd: "python C:\\Users\\ur username\\Desktop\\python\\windows\\leopardwm\\yasbpluginlol\\widget.py"
       run_interval: 500
       return_format: "string"
       hide_empty: false
